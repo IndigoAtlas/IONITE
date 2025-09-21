@@ -27,4 +27,4 @@ jobs:
         run: echo "${{ secrets.JSON_CONTENT }}" > ionite-472813-3f097b8874d0.json
 
       - name: Run Python script
-        run: python my_script.py  # Replace with your actual script name
+        run: python run.py  # Replace with your actual script name
